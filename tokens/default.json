@@ -6,11 +6,11 @@
         "type": "color"
       },
       "header": {
-        "value": "#171717",
+        "value": "#000000",
         "type": "color"
       },
       "footer": {
-        "value": "#000",
+        "value": "#000000",
         "type": "color"
       },
       "surface": {
@@ -22,11 +22,11 @@
         "type": "color"
       },
       "primary": {
-        "value": "#005f9e",
+        "value": "#0d6346",
         "type": "color"
       },
       "secondary": {
-        "value": "#563fd8",
+        "value": "#eaea3d",
         "type": "color"
       },
       "subtle": {
@@ -40,7 +40,7 @@
     },
     "fg": {
       "default": {
-        "value": "#000",
+        "value": "#000000",
         "type": "color"
       },
       "onAccent": {
@@ -64,8 +64,68 @@
         "type": "color"
       },
       "link": {
-        "value": "#005f9e",
+        "value": "#0d6346",
         "type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "background": {
+          "value": "#0d6346",
+          "type": "color"
+        }
+      },
+      "ghost": {
+        "outline": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "text": {
+          "value": "#000000",
+          "type": "color"
+        }
+      }
+    },
+    "borderWidth": {
+      "button": {
+        "ghost": {
+          "value": 4,
+          "type": "borderWidth"
+        }
+      }
+    },
+    "borderRadius": {
+      "button": {
+        "value": 0,
+        "type": "borderRadius"
+      },
+      "card": {
+        "value": 0,
+        "type": "borderRadius"
+      },
+      "input": {
+        "value": 0,
+        "type": "borderRadius"
+      }
+    },
+    "fontFamilies": {
+      "display": {
+        "value": "Monument Extended",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Avenir",
+        "type": "fontFamilies"
+      },
+      "nav": {
+        "value": "Avenir",
+        "type": "fontFamilies"
+      }
+    },
+    "fontSizes": {
+      "default": {
+        "value": 16,
+        "type": "fontSizes"
       }
     }
   }
