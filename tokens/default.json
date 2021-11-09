@@ -6,11 +6,11 @@
         "type": "color"
       },
       "header": {
-        "value": "#000000",
+        "value": "#ffffff",
         "type": "color"
       },
       "footer": {
-        "value": "#000000",
+        "value": "#f5f5f5",
         "type": "color"
       },
       "surface": {
@@ -48,11 +48,11 @@
         "type": "color"
       },
       "onHeader": {
-        "value": "#ffffff",
+        "value": "#323232",
         "type": "color"
       },
       "onFooter": {
-        "value": "#ffffff",
+        "value": "#424242",
         "type": "color"
       },
       "muted": {
