@@ -110,7 +110,7 @@
     },
     "fontFamilies": {
       "display": {
-        "value": "Hurme Geometric Sans 3",
+        "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
       },
       "body": {
@@ -118,7 +118,7 @@
         "type": "fontFamilies"
       },
       "nav": {
-        "value": "Hurme Geometric Sans 3",
+        "value": "\"Hurme Geometric Sans 3\"",
         "type": "fontFamilies"
       }
     },
