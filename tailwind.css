@@ -614,7 +614,7 @@ video {
   --theme-bg-footer: #f5f5f5;
   --theme-bg-surface: #ffffff;
   --theme-bg-surface-alt: #eeeeee;
-  --theme-bg-primary: #6B7280;
+  --theme-bg-primary: #f00;
   --theme-bg-secondary: #3B82F6;
   --theme-bg-subtle: #f5f5f5;
   --theme-bg-muted: #e0e0e0;
@@ -624,8 +624,8 @@ video {
   --theme-fg-on-footer: #424242;
   --theme-fg-muted: #616161;
   --theme-fg-subtle: #9e9e9e;
-  --theme-fg-link: #6B7280;
-  --theme-button-primary-background: #6B7280;
+  --theme-fg-link: #f00;
+  --theme-button-primary-background: #f00;
   --theme-button-ghost-outline: #000000;
   --theme-button-ghost-text: #000000;
   --theme-border-width-button-ghost: 4;
@@ -11853,7 +11853,7 @@ html, body {
 }
 
 .divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
-  border-color: var(--theme-bg-primary, #6B7280);
+  border-color: var(--theme-bg-primary, #f00);
 }
 
 .divide-theme-bg-secondary > :not([hidden]) ~ :not([hidden]) {
@@ -11893,11 +11893,11 @@ html, body {
 }
 
 .divide-theme-fg-link > :not([hidden]) ~ :not([hidden]) {
-  border-color: var(--theme-fg-link, #6B7280);
+  border-color: var(--theme-fg-link, #f00);
 }
 
 .divide-theme-button-primary-background > :not([hidden]) ~ :not([hidden]) {
-  border-color: var(--theme-button-primary-background, #6B7280);
+  border-color: var(--theme-button-primary-background, #f00);
 }
 
 .divide-theme-button-ghost-outline > :not([hidden]) ~ :not([hidden]) {
@@ -12667,7 +12667,7 @@ html, body {
 }
 
 .border-theme-bg-primary {
-  border-color: var(--theme-bg-primary, #6B7280);
+  border-color: var(--theme-bg-primary, #f00);
 }
 
 .border-theme-bg-secondary {
@@ -12707,11 +12707,11 @@ html, body {
 }
 
 .border-theme-fg-link {
-  border-color: var(--theme-fg-link, #6B7280);
+  border-color: var(--theme-fg-link, #f00);
 }
 
 .border-theme-button-primary-background {
-  border-color: var(--theme-button-primary-background, #6B7280);
+  border-color: var(--theme-button-primary-background, #f00);
 }
 
 .border-theme-button-ghost-outline {
@@ -12743,7 +12743,7 @@ html, body {
 }
 
 .group:hover .group-hover\:border-theme-bg-primary {
-  border-color: var(--theme-bg-primary, #6B7280);
+  border-color: var(--theme-bg-primary, #f00);
 }
 
 .group:hover .group-hover\:border-theme-bg-secondary {
@@ -12783,11 +12783,11 @@ html, body {
 }
 
 .group:hover .group-hover\:border-theme-fg-link {
-  border-color: var(--theme-fg-link, #6B7280);
+  border-color: var(--theme-fg-link, #f00);
 }
 
 .group:hover .group-hover\:border-theme-button-primary-background {
-  border-color: var(--theme-button-primary-background, #6B7280);
+  border-color: var(--theme-button-primary-background, #f00);
 }
 
 .group:hover .group-hover\:border-theme-button-ghost-outline {
@@ -12819,7 +12819,7 @@ html, body {
 }
 
 .focus-within\:border-theme-bg-primary:focus-within {
-  border-color: var(--theme-bg-primary, #6B7280);
+  border-color: var(--theme-bg-primary, #f00);
 }
 
 .focus-within\:border-theme-bg-secondary:focus-within {
@@ -12859,11 +12859,11 @@ html, body {
 }
 
 .focus-within\:border-theme-fg-link:focus-within {
-  border-color: var(--theme-fg-link, #6B7280);
+  border-color: var(--theme-fg-link, #f00);
 }
 
 .focus-within\:border-theme-button-primary-background:focus-within {
-  border-color: var(--theme-button-primary-background, #6B7280);
+  border-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus-within\:border-theme-button-ghost-outline:focus-within {
@@ -12895,7 +12895,7 @@ html, body {
 }
 
 .hover\:border-theme-bg-primary:hover {
-  border-color: var(--theme-bg-primary, #6B7280);
+  border-color: var(--theme-bg-primary, #f00);
 }
 
 .hover\:border-theme-bg-secondary:hover {
@@ -12935,11 +12935,11 @@ html, body {
 }
 
 .hover\:border-theme-fg-link:hover {
-  border-color: var(--theme-fg-link, #6B7280);
+  border-color: var(--theme-fg-link, #f00);
 }
 
 .hover\:border-theme-button-primary-background:hover {
-  border-color: var(--theme-button-primary-background, #6B7280);
+  border-color: var(--theme-button-primary-background, #f00);
 }
 
 .hover\:border-theme-button-ghost-outline:hover {
@@ -12971,7 +12971,7 @@ html, body {
 }
 
 .focus\:border-theme-bg-primary:focus {
-  border-color: var(--theme-bg-primary, #6B7280);
+  border-color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:border-theme-bg-secondary:focus {
@@ -13011,11 +13011,11 @@ html, body {
 }
 
 .focus\:border-theme-fg-link:focus {
-  border-color: var(--theme-fg-link, #6B7280);
+  border-color: var(--theme-fg-link, #f00);
 }
 
 .focus\:border-theme-button-primary-background:focus {
-  border-color: var(--theme-button-primary-background, #6B7280);
+  border-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:border-theme-button-ghost-outline:focus {
@@ -13347,7 +13347,7 @@ html, body {
 }
 
 .bg-theme-bg-primary {
-  background-color: var(--theme-bg-primary, #6B7280);
+  background-color: var(--theme-bg-primary, #f00);
 }
 
 .bg-theme-bg-secondary {
@@ -13387,11 +13387,11 @@ html, body {
 }
 
 .bg-theme-fg-link {
-  background-color: var(--theme-fg-link, #6B7280);
+  background-color: var(--theme-fg-link, #f00);
 }
 
 .bg-theme-button-primary-background {
-  background-color: var(--theme-button-primary-background, #6B7280);
+  background-color: var(--theme-button-primary-background, #f00);
 }
 
 .bg-theme-button-ghost-outline {
@@ -13423,7 +13423,7 @@ html, body {
 }
 
 .group:hover .group-hover\:bg-theme-bg-primary {
-  background-color: var(--theme-bg-primary, #6B7280);
+  background-color: var(--theme-bg-primary, #f00);
 }
 
 .group:hover .group-hover\:bg-theme-bg-secondary {
@@ -13463,11 +13463,11 @@ html, body {
 }
 
 .group:hover .group-hover\:bg-theme-fg-link {
-  background-color: var(--theme-fg-link, #6B7280);
+  background-color: var(--theme-fg-link, #f00);
 }
 
 .group:hover .group-hover\:bg-theme-button-primary-background {
-  background-color: var(--theme-button-primary-background, #6B7280);
+  background-color: var(--theme-button-primary-background, #f00);
 }
 
 .group:hover .group-hover\:bg-theme-button-ghost-outline {
@@ -13499,7 +13499,7 @@ html, body {
 }
 
 .focus-within\:bg-theme-bg-primary:focus-within {
-  background-color: var(--theme-bg-primary, #6B7280);
+  background-color: var(--theme-bg-primary, #f00);
 }
 
 .focus-within\:bg-theme-bg-secondary:focus-within {
@@ -13539,11 +13539,11 @@ html, body {
 }
 
 .focus-within\:bg-theme-fg-link:focus-within {
-  background-color: var(--theme-fg-link, #6B7280);
+  background-color: var(--theme-fg-link, #f00);
 }
 
 .focus-within\:bg-theme-button-primary-background:focus-within {
-  background-color: var(--theme-button-primary-background, #6B7280);
+  background-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus-within\:bg-theme-button-ghost-outline:focus-within {
@@ -13575,7 +13575,7 @@ html, body {
 }
 
 .hover\:bg-theme-bg-primary:hover {
-  background-color: var(--theme-bg-primary, #6B7280);
+  background-color: var(--theme-bg-primary, #f00);
 }
 
 .hover\:bg-theme-bg-secondary:hover {
@@ -13615,11 +13615,11 @@ html, body {
 }
 
 .hover\:bg-theme-fg-link:hover {
-  background-color: var(--theme-fg-link, #6B7280);
+  background-color: var(--theme-fg-link, #f00);
 }
 
 .hover\:bg-theme-button-primary-background:hover {
-  background-color: var(--theme-button-primary-background, #6B7280);
+  background-color: var(--theme-button-primary-background, #f00);
 }
 
 .hover\:bg-theme-button-ghost-outline:hover {
@@ -13651,7 +13651,7 @@ html, body {
 }
 
 .focus\:bg-theme-bg-primary:focus {
-  background-color: var(--theme-bg-primary, #6B7280);
+  background-color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:bg-theme-bg-secondary:focus {
@@ -13691,11 +13691,11 @@ html, body {
 }
 
 .focus\:bg-theme-fg-link:focus {
-  background-color: var(--theme-fg-link, #6B7280);
+  background-color: var(--theme-fg-link, #f00);
 }
 
 .focus\:bg-theme-button-primary-background:focus {
-  background-color: var(--theme-button-primary-background, #6B7280);
+  background-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:bg-theme-button-ghost-outline:focus {
@@ -14068,7 +14068,7 @@ html, body {
 }
 
 .from-theme-bg-primary {
-  --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+  --tw-gradient-from: var(--theme-bg-primary, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14118,12 +14118,12 @@ html, body {
 }
 
 .from-theme-fg-link {
-  --tw-gradient-from: var(--theme-fg-link, #6B7280);
+  --tw-gradient-from: var(--theme-fg-link, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .from-theme-button-primary-background {
-  --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+  --tw-gradient-from: var(--theme-button-primary-background, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14163,7 +14163,7 @@ html, body {
 }
 
 .hover\:from-theme-bg-primary:hover {
-  --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+  --tw-gradient-from: var(--theme-bg-primary, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14213,12 +14213,12 @@ html, body {
 }
 
 .hover\:from-theme-fg-link:hover {
-  --tw-gradient-from: var(--theme-fg-link, #6B7280);
+  --tw-gradient-from: var(--theme-fg-link, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\:from-theme-button-primary-background:hover {
-  --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+  --tw-gradient-from: var(--theme-button-primary-background, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14258,7 +14258,7 @@ html, body {
 }
 
 .focus\:from-theme-bg-primary:focus {
-  --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+  --tw-gradient-from: var(--theme-bg-primary, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14308,12 +14308,12 @@ html, body {
 }
 
 .focus\:from-theme-fg-link:focus {
-  --tw-gradient-from: var(--theme-fg-link, #6B7280);
+  --tw-gradient-from: var(--theme-fg-link, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .focus\:from-theme-button-primary-background:focus {
-  --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+  --tw-gradient-from: var(--theme-button-primary-background, #f00);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
@@ -14348,7 +14348,7 @@ html, body {
 }
 
 .via-theme-bg-primary {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .via-theme-bg-secondary {
@@ -14388,11 +14388,11 @@ html, body {
 }
 
 .via-theme-fg-link {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .via-theme-button-primary-background {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .via-theme-button-ghost-outline {
@@ -14424,7 +14424,7 @@ html, body {
 }
 
 .hover\:via-theme-bg-primary:hover {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\:via-theme-bg-secondary:hover {
@@ -14464,11 +14464,11 @@ html, body {
 }
 
 .hover\:via-theme-fg-link:hover {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\:via-theme-button-primary-background:hover {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .hover\:via-theme-button-ghost-outline:hover {
@@ -14500,7 +14500,7 @@ html, body {
 }
 
 .focus\:via-theme-bg-primary:focus {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .focus\:via-theme-bg-secondary:focus {
@@ -14540,11 +14540,11 @@ html, body {
 }
 
 .focus\:via-theme-fg-link:focus {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .focus\:via-theme-button-primary-background:focus {
-  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
 .focus\:via-theme-button-ghost-outline:focus {
@@ -14576,7 +14576,7 @@ html, body {
 }
 
 .to-theme-bg-primary {
-  --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+  --tw-gradient-to: var(--theme-bg-primary, #f00);
 }
 
 .to-theme-bg-secondary {
@@ -14616,11 +14616,11 @@ html, body {
 }
 
 .to-theme-fg-link {
-  --tw-gradient-to: var(--theme-fg-link, #6B7280);
+  --tw-gradient-to: var(--theme-fg-link, #f00);
 }
 
 .to-theme-button-primary-background {
-  --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+  --tw-gradient-to: var(--theme-button-primary-background, #f00);
 }
 
 .to-theme-button-ghost-outline {
@@ -14652,7 +14652,7 @@ html, body {
 }
 
 .hover\:to-theme-bg-primary:hover {
-  --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+  --tw-gradient-to: var(--theme-bg-primary, #f00);
 }
 
 .hover\:to-theme-bg-secondary:hover {
@@ -14692,11 +14692,11 @@ html, body {
 }
 
 .hover\:to-theme-fg-link:hover {
-  --tw-gradient-to: var(--theme-fg-link, #6B7280);
+  --tw-gradient-to: var(--theme-fg-link, #f00);
 }
 
 .hover\:to-theme-button-primary-background:hover {
-  --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+  --tw-gradient-to: var(--theme-button-primary-background, #f00);
 }
 
 .hover\:to-theme-button-ghost-outline:hover {
@@ -14728,7 +14728,7 @@ html, body {
 }
 
 .focus\:to-theme-bg-primary:focus {
-  --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+  --tw-gradient-to: var(--theme-bg-primary, #f00);
 }
 
 .focus\:to-theme-bg-secondary:focus {
@@ -14768,11 +14768,11 @@ html, body {
 }
 
 .focus\:to-theme-fg-link:focus {
-  --tw-gradient-to: var(--theme-fg-link, #6B7280);
+  --tw-gradient-to: var(--theme-fg-link, #f00);
 }
 
 .focus\:to-theme-button-primary-background:focus {
-  --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+  --tw-gradient-to: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:to-theme-button-ghost-outline:focus {
@@ -16369,7 +16369,7 @@ html, body {
 }
 
 .text-theme-bg-primary {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .text-theme-bg-secondary {
@@ -16409,11 +16409,11 @@ html, body {
 }
 
 .text-theme-fg-link {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .text-theme-button-primary-background {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .text-theme-button-ghost-outline {
@@ -16445,7 +16445,7 @@ html, body {
 }
 
 .group:hover .group-hover\:text-theme-bg-primary {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .group:hover .group-hover\:text-theme-bg-secondary {
@@ -16485,11 +16485,11 @@ html, body {
 }
 
 .group:hover .group-hover\:text-theme-fg-link {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .group:hover .group-hover\:text-theme-button-primary-background {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .group:hover .group-hover\:text-theme-button-ghost-outline {
@@ -16521,7 +16521,7 @@ html, body {
 }
 
 .focus-within\:text-theme-bg-primary:focus-within {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .focus-within\:text-theme-bg-secondary:focus-within {
@@ -16561,11 +16561,11 @@ html, body {
 }
 
 .focus-within\:text-theme-fg-link:focus-within {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .focus-within\:text-theme-button-primary-background:focus-within {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .focus-within\:text-theme-button-ghost-outline:focus-within {
@@ -16597,7 +16597,7 @@ html, body {
 }
 
 .hover\:text-theme-bg-primary:hover {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .hover\:text-theme-bg-secondary:hover {
@@ -16637,11 +16637,11 @@ html, body {
 }
 
 .hover\:text-theme-fg-link:hover {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .hover\:text-theme-button-primary-background:hover {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .hover\:text-theme-button-ghost-outline:hover {
@@ -16673,7 +16673,7 @@ html, body {
 }
 
 .focus\:text-theme-bg-primary:focus {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:text-theme-bg-secondary:focus {
@@ -16713,11 +16713,11 @@ html, body {
 }
 
 .focus\:text-theme-fg-link:focus {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .focus\:text-theme-button-primary-background:focus {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:text-theme-button-ghost-outline:focus {
@@ -17159,15 +17159,15 @@ html, body {
 }
 
 .placeholder-theme-bg-primary::-moz-placeholder {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .placeholder-theme-bg-primary:-ms-input-placeholder {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .placeholder-theme-bg-primary::placeholder {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .placeholder-theme-bg-secondary::-moz-placeholder {
@@ -17279,27 +17279,27 @@ html, body {
 }
 
 .placeholder-theme-fg-link::-moz-placeholder {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .placeholder-theme-fg-link:-ms-input-placeholder {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .placeholder-theme-fg-link::placeholder {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .placeholder-theme-button-primary-background::-moz-placeholder {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .placeholder-theme-button-primary-background:-ms-input-placeholder {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .placeholder-theme-button-primary-background::placeholder {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .placeholder-theme-button-ghost-outline::-moz-placeholder {
@@ -17387,15 +17387,15 @@ html, body {
 }
 
 .focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:placeholder-theme-bg-primary:focus:-ms-input-placeholder {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:placeholder-theme-bg-primary:focus::placeholder {
-  color: var(--theme-bg-primary, #6B7280);
+  color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:placeholder-theme-bg-secondary:focus::-moz-placeholder {
@@ -17507,27 +17507,27 @@ html, body {
 }
 
 .focus\:placeholder-theme-fg-link:focus::-moz-placeholder {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .focus\:placeholder-theme-fg-link:focus:-ms-input-placeholder {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .focus\:placeholder-theme-fg-link:focus::placeholder {
-  color: var(--theme-fg-link, #6B7280);
+  color: var(--theme-fg-link, #f00);
 }
 
 .focus\:placeholder-theme-button-primary-background:focus::-moz-placeholder {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:placeholder-theme-button-primary-background:focus:-ms-input-placeholder {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:placeholder-theme-button-primary-background:focus::placeholder {
-  color: var(--theme-button-primary-background, #6B7280);
+  color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:placeholder-theme-button-ghost-outline:focus::-moz-placeholder {
@@ -18741,7 +18741,7 @@ html, body {
 }
 
 .ring-theme-bg-primary {
-  --tw-ring-color: var(--theme-bg-primary, #6B7280);
+  --tw-ring-color: var(--theme-bg-primary, #f00);
 }
 
 .ring-theme-bg-secondary {
@@ -18781,11 +18781,11 @@ html, body {
 }
 
 .ring-theme-fg-link {
-  --tw-ring-color: var(--theme-fg-link, #6B7280);
+  --tw-ring-color: var(--theme-fg-link, #f00);
 }
 
 .ring-theme-button-primary-background {
-  --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+  --tw-ring-color: var(--theme-button-primary-background, #f00);
 }
 
 .ring-theme-button-ghost-outline {
@@ -18817,7 +18817,7 @@ html, body {
 }
 
 .focus-within\:ring-theme-bg-primary:focus-within {
-  --tw-ring-color: var(--theme-bg-primary, #6B7280);
+  --tw-ring-color: var(--theme-bg-primary, #f00);
 }
 
 .focus-within\:ring-theme-bg-secondary:focus-within {
@@ -18857,11 +18857,11 @@ html, body {
 }
 
 .focus-within\:ring-theme-fg-link:focus-within {
-  --tw-ring-color: var(--theme-fg-link, #6B7280);
+  --tw-ring-color: var(--theme-fg-link, #f00);
 }
 
 .focus-within\:ring-theme-button-primary-background:focus-within {
-  --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+  --tw-ring-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus-within\:ring-theme-button-ghost-outline:focus-within {
@@ -18893,7 +18893,7 @@ html, body {
 }
 
 .focus\:ring-theme-bg-primary:focus {
-  --tw-ring-color: var(--theme-bg-primary, #6B7280);
+  --tw-ring-color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:ring-theme-bg-secondary:focus {
@@ -18933,11 +18933,11 @@ html, body {
 }
 
 .focus\:ring-theme-fg-link:focus {
-  --tw-ring-color: var(--theme-fg-link, #6B7280);
+  --tw-ring-color: var(--theme-fg-link, #f00);
 }
 
 .focus\:ring-theme-button-primary-background:focus {
-  --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+  --tw-ring-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:ring-theme-button-ghost-outline:focus {
@@ -19209,7 +19209,7 @@ html, body {
 }
 
 .ring-offset-theme-bg-primary {
-  --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+  --tw-ring-offset-color: var(--theme-bg-primary, #f00);
 }
 
 .ring-offset-theme-bg-secondary {
@@ -19249,11 +19249,11 @@ html, body {
 }
 
 .ring-offset-theme-fg-link {
-  --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+  --tw-ring-offset-color: var(--theme-fg-link, #f00);
 }
 
 .ring-offset-theme-button-primary-background {
-  --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+  --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
 }
 
 .ring-offset-theme-button-ghost-outline {
@@ -19285,7 +19285,7 @@ html, body {
 }
 
 .focus-within\:ring-offset-theme-bg-primary:focus-within {
-  --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+  --tw-ring-offset-color: var(--theme-bg-primary, #f00);
 }
 
 .focus-within\:ring-offset-theme-bg-secondary:focus-within {
@@ -19325,11 +19325,11 @@ html, body {
 }
 
 .focus-within\:ring-offset-theme-fg-link:focus-within {
-  --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+  --tw-ring-offset-color: var(--theme-fg-link, #f00);
 }
 
 .focus-within\:ring-offset-theme-button-primary-background:focus-within {
-  --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+  --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus-within\:ring-offset-theme-button-ghost-outline:focus-within {
@@ -19361,7 +19361,7 @@ html, body {
 }
 
 .focus\:ring-offset-theme-bg-primary:focus {
-  --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+  --tw-ring-offset-color: var(--theme-bg-primary, #f00);
 }
 
 .focus\:ring-offset-theme-bg-secondary:focus {
@@ -19401,11 +19401,11 @@ html, body {
 }
 
 .focus\:ring-offset-theme-fg-link:focus {
-  --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+  --tw-ring-offset-color: var(--theme-fg-link, #f00);
 }
 
 .focus\:ring-offset-theme-button-primary-background:focus {
-  --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+  --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
 }
 
 .focus\:ring-offset-theme-button-ghost-outline:focus {
@@ -31228,7 +31228,7 @@ html, body {
   }
 
   .sm\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:divide-theme-bg-secondary > :not([hidden]) ~ :not([hidden]) {
@@ -31268,11 +31268,11 @@ html, body {
   }
 
   .sm\:divide-theme-fg-link > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:divide-theme-button-primary-background > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:divide-theme-button-ghost-outline > :not([hidden]) ~ :not([hidden]) {
@@ -32042,7 +32042,7 @@ html, body {
   }
 
   .sm\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:border-theme-bg-secondary {
@@ -32082,11 +32082,11 @@ html, body {
   }
 
   .sm\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:border-theme-button-ghost-outline {
@@ -32118,7 +32118,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .sm\:group-hover\:border-theme-bg-secondary {
@@ -32158,11 +32158,11 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .sm\:group-hover\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .sm\:group-hover\:border-theme-button-ghost-outline {
@@ -32194,7 +32194,7 @@ html, body {
   }
 
   .sm\:focus-within\:border-theme-bg-primary:focus-within {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus-within\:border-theme-bg-secondary:focus-within {
@@ -32234,11 +32234,11 @@ html, body {
   }
 
   .sm\:focus-within\:border-theme-fg-link:focus-within {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus-within\:border-theme-button-primary-background:focus-within {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus-within\:border-theme-button-ghost-outline:focus-within {
@@ -32270,7 +32270,7 @@ html, body {
   }
 
   .sm\:hover\:border-theme-bg-primary:hover {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:hover\:border-theme-bg-secondary:hover {
@@ -32310,11 +32310,11 @@ html, body {
   }
 
   .sm\:hover\:border-theme-fg-link:hover {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:hover\:border-theme-button-primary-background:hover {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:hover\:border-theme-button-ghost-outline:hover {
@@ -32346,7 +32346,7 @@ html, body {
   }
 
   .sm\:focus\:border-theme-bg-primary:focus {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:border-theme-bg-secondary:focus {
@@ -32386,11 +32386,11 @@ html, body {
   }
 
   .sm\:focus\:border-theme-fg-link:focus {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:border-theme-button-primary-background:focus {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:border-theme-button-ghost-outline:focus {
@@ -32722,7 +32722,7 @@ html, body {
   }
 
   .sm\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:bg-theme-bg-secondary {
@@ -32762,11 +32762,11 @@ html, body {
   }
 
   .sm\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:bg-theme-button-ghost-outline {
@@ -32798,7 +32798,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .sm\:group-hover\:bg-theme-bg-secondary {
@@ -32838,11 +32838,11 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .sm\:group-hover\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .sm\:group-hover\:bg-theme-button-ghost-outline {
@@ -32874,7 +32874,7 @@ html, body {
   }
 
   .sm\:focus-within\:bg-theme-bg-primary:focus-within {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus-within\:bg-theme-bg-secondary:focus-within {
@@ -32914,11 +32914,11 @@ html, body {
   }
 
   .sm\:focus-within\:bg-theme-fg-link:focus-within {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus-within\:bg-theme-button-primary-background:focus-within {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus-within\:bg-theme-button-ghost-outline:focus-within {
@@ -32950,7 +32950,7 @@ html, body {
   }
 
   .sm\:hover\:bg-theme-bg-primary:hover {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:hover\:bg-theme-bg-secondary:hover {
@@ -32990,11 +32990,11 @@ html, body {
   }
 
   .sm\:hover\:bg-theme-fg-link:hover {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:hover\:bg-theme-button-primary-background:hover {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:hover\:bg-theme-button-ghost-outline:hover {
@@ -33026,7 +33026,7 @@ html, body {
   }
 
   .sm\:focus\:bg-theme-bg-primary:focus {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:bg-theme-bg-secondary:focus {
@@ -33066,11 +33066,11 @@ html, body {
   }
 
   .sm\:focus\:bg-theme-fg-link:focus {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:bg-theme-button-primary-background:focus {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:bg-theme-button-ghost-outline:focus {
@@ -33443,7 +33443,7 @@ html, body {
   }
 
   .sm\:from-theme-bg-primary {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33493,12 +33493,12 @@ html, body {
   }
 
   .sm\:from-theme-fg-link {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:from-theme-button-primary-background {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33538,7 +33538,7 @@ html, body {
   }
 
   .sm\:hover\:from-theme-bg-primary:hover {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33588,12 +33588,12 @@ html, body {
   }
 
   .sm\:hover\:from-theme-fg-link:hover {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:from-theme-button-primary-background:hover {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33633,7 +33633,7 @@ html, body {
   }
 
   .sm\:focus\:from-theme-bg-primary:focus {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33683,12 +33683,12 @@ html, body {
   }
 
   .sm\:focus\:from-theme-fg-link:focus {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:from-theme-button-primary-background:focus {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -33723,7 +33723,7 @@ html, body {
   }
 
   .sm\:via-theme-bg-primary {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:via-theme-bg-secondary {
@@ -33763,11 +33763,11 @@ html, body {
   }
 
   .sm\:via-theme-fg-link {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:via-theme-button-primary-background {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:via-theme-button-ghost-outline {
@@ -33799,7 +33799,7 @@ html, body {
   }
 
   .sm\:hover\:via-theme-bg-primary:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:via-theme-bg-secondary:hover {
@@ -33839,11 +33839,11 @@ html, body {
   }
 
   .sm\:hover\:via-theme-fg-link:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:via-theme-button-primary-background:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:hover\:via-theme-button-ghost-outline:hover {
@@ -33875,7 +33875,7 @@ html, body {
   }
 
   .sm\:focus\:via-theme-bg-primary:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:via-theme-bg-secondary:focus {
@@ -33915,11 +33915,11 @@ html, body {
   }
 
   .sm\:focus\:via-theme-fg-link:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:via-theme-button-primary-background:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .sm\:focus\:via-theme-button-ghost-outline:focus {
@@ -33951,7 +33951,7 @@ html, body {
   }
 
   .sm\:to-theme-bg-primary {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .sm\:to-theme-bg-secondary {
@@ -33991,11 +33991,11 @@ html, body {
   }
 
   .sm\:to-theme-fg-link {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .sm\:to-theme-button-primary-background {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:to-theme-button-ghost-outline {
@@ -34027,7 +34027,7 @@ html, body {
   }
 
   .sm\:hover\:to-theme-bg-primary:hover {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .sm\:hover\:to-theme-bg-secondary:hover {
@@ -34067,11 +34067,11 @@ html, body {
   }
 
   .sm\:hover\:to-theme-fg-link:hover {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .sm\:hover\:to-theme-button-primary-background:hover {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:hover\:to-theme-button-ghost-outline:hover {
@@ -34103,7 +34103,7 @@ html, body {
   }
 
   .sm\:focus\:to-theme-bg-primary:focus {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:to-theme-bg-secondary:focus {
@@ -34143,11 +34143,11 @@ html, body {
   }
 
   .sm\:focus\:to-theme-fg-link:focus {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:to-theme-button-primary-background:focus {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:to-theme-button-ghost-outline:focus {
@@ -35744,7 +35744,7 @@ html, body {
   }
 
   .sm\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:text-theme-bg-secondary {
@@ -35784,11 +35784,11 @@ html, body {
   }
 
   .sm\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:text-theme-button-ghost-outline {
@@ -35820,7 +35820,7 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .sm\:group-hover\:text-theme-bg-secondary {
@@ -35860,11 +35860,11 @@ html, body {
   }
 
   .group:hover .sm\:group-hover\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .sm\:group-hover\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .sm\:group-hover\:text-theme-button-ghost-outline {
@@ -35896,7 +35896,7 @@ html, body {
   }
 
   .sm\:focus-within\:text-theme-bg-primary:focus-within {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus-within\:text-theme-bg-secondary:focus-within {
@@ -35936,11 +35936,11 @@ html, body {
   }
 
   .sm\:focus-within\:text-theme-fg-link:focus-within {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus-within\:text-theme-button-primary-background:focus-within {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus-within\:text-theme-button-ghost-outline:focus-within {
@@ -35972,7 +35972,7 @@ html, body {
   }
 
   .sm\:hover\:text-theme-bg-primary:hover {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:hover\:text-theme-bg-secondary:hover {
@@ -36012,11 +36012,11 @@ html, body {
   }
 
   .sm\:hover\:text-theme-fg-link:hover {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:hover\:text-theme-button-primary-background:hover {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:hover\:text-theme-button-ghost-outline:hover {
@@ -36048,7 +36048,7 @@ html, body {
   }
 
   .sm\:focus\:text-theme-bg-primary:focus {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:text-theme-bg-secondary:focus {
@@ -36088,11 +36088,11 @@ html, body {
   }
 
   .sm\:focus\:text-theme-fg-link:focus {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:text-theme-button-primary-background:focus {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:text-theme-button-ghost-outline:focus {
@@ -36534,15 +36534,15 @@ html, body {
   }
 
   .sm\:placeholder-theme-bg-primary::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:placeholder-theme-bg-primary:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:placeholder-theme-bg-primary::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:placeholder-theme-bg-secondary::-moz-placeholder {
@@ -36654,27 +36654,27 @@ html, body {
   }
 
   .sm\:placeholder-theme-fg-link::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:placeholder-theme-fg-link:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:placeholder-theme-fg-link::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:placeholder-theme-button-primary-background::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:placeholder-theme-button-primary-background:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:placeholder-theme-button-primary-background::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:placeholder-theme-button-ghost-outline::-moz-placeholder {
@@ -36762,15 +36762,15 @@ html, body {
   }
 
   .sm\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:placeholder-theme-bg-primary:focus:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:placeholder-theme-bg-primary:focus::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:placeholder-theme-bg-secondary:focus::-moz-placeholder {
@@ -36882,27 +36882,27 @@ html, body {
   }
 
   .sm\:focus\:placeholder-theme-fg-link:focus::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:placeholder-theme-fg-link:focus:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:placeholder-theme-fg-link:focus::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:placeholder-theme-button-primary-background:focus::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:placeholder-theme-button-primary-background:focus:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:placeholder-theme-button-primary-background:focus::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:placeholder-theme-button-ghost-outline:focus::-moz-placeholder {
@@ -38103,7 +38103,7 @@ html, body {
   }
 
   .sm\:ring-theme-bg-primary {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:ring-theme-bg-secondary {
@@ -38143,11 +38143,11 @@ html, body {
   }
 
   .sm\:ring-theme-fg-link {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:ring-theme-button-primary-background {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:ring-theme-button-ghost-outline {
@@ -38179,7 +38179,7 @@ html, body {
   }
 
   .sm\:focus-within\:ring-theme-bg-primary:focus-within {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus-within\:ring-theme-bg-secondary:focus-within {
@@ -38219,11 +38219,11 @@ html, body {
   }
 
   .sm\:focus-within\:ring-theme-fg-link:focus-within {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus-within\:ring-theme-button-primary-background:focus-within {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus-within\:ring-theme-button-ghost-outline:focus-within {
@@ -38255,7 +38255,7 @@ html, body {
   }
 
   .sm\:focus\:ring-theme-bg-primary:focus {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:ring-theme-bg-secondary:focus {
@@ -38295,11 +38295,11 @@ html, body {
   }
 
   .sm\:focus\:ring-theme-fg-link:focus {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:ring-theme-button-primary-background:focus {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:ring-theme-button-ghost-outline:focus {
@@ -38571,7 +38571,7 @@ html, body {
   }
 
   .sm\:ring-offset-theme-bg-primary {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:ring-offset-theme-bg-secondary {
@@ -38611,11 +38611,11 @@ html, body {
   }
 
   .sm\:ring-offset-theme-fg-link {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:ring-offset-theme-button-primary-background {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:ring-offset-theme-button-ghost-outline {
@@ -38647,7 +38647,7 @@ html, body {
   }
 
   .sm\:focus-within\:ring-offset-theme-bg-primary:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus-within\:ring-offset-theme-bg-secondary:focus-within {
@@ -38687,11 +38687,11 @@ html, body {
   }
 
   .sm\:focus-within\:ring-offset-theme-fg-link:focus-within {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus-within\:ring-offset-theme-button-primary-background:focus-within {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus-within\:ring-offset-theme-button-ghost-outline:focus-within {
@@ -38723,7 +38723,7 @@ html, body {
   }
 
   .sm\:focus\:ring-offset-theme-bg-primary:focus {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .sm\:focus\:ring-offset-theme-bg-secondary:focus {
@@ -38763,11 +38763,11 @@ html, body {
   }
 
   .sm\:focus\:ring-offset-theme-fg-link:focus {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .sm\:focus\:ring-offset-theme-button-primary-background:focus {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .sm\:focus\:ring-offset-theme-button-ghost-outline:focus {
@@ -50591,7 +50591,7 @@ html, body {
   }
 
   .md\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:divide-theme-bg-secondary > :not([hidden]) ~ :not([hidden]) {
@@ -50631,11 +50631,11 @@ html, body {
   }
 
   .md\:divide-theme-fg-link > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .md\:divide-theme-button-primary-background > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:divide-theme-button-ghost-outline > :not([hidden]) ~ :not([hidden]) {
@@ -51405,7 +51405,7 @@ html, body {
   }
 
   .md\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:border-theme-bg-secondary {
@@ -51445,11 +51445,11 @@ html, body {
   }
 
   .md\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .md\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:border-theme-button-ghost-outline {
@@ -51481,7 +51481,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .md\:group-hover\:border-theme-bg-secondary {
@@ -51521,11 +51521,11 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .md\:group-hover\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .md\:group-hover\:border-theme-button-ghost-outline {
@@ -51557,7 +51557,7 @@ html, body {
   }
 
   .md\:focus-within\:border-theme-bg-primary:focus-within {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus-within\:border-theme-bg-secondary:focus-within {
@@ -51597,11 +51597,11 @@ html, body {
   }
 
   .md\:focus-within\:border-theme-fg-link:focus-within {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus-within\:border-theme-button-primary-background:focus-within {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus-within\:border-theme-button-ghost-outline:focus-within {
@@ -51633,7 +51633,7 @@ html, body {
   }
 
   .md\:hover\:border-theme-bg-primary:hover {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:hover\:border-theme-bg-secondary:hover {
@@ -51673,11 +51673,11 @@ html, body {
   }
 
   .md\:hover\:border-theme-fg-link:hover {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .md\:hover\:border-theme-button-primary-background:hover {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:hover\:border-theme-button-ghost-outline:hover {
@@ -51709,7 +51709,7 @@ html, body {
   }
 
   .md\:focus\:border-theme-bg-primary:focus {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:border-theme-bg-secondary:focus {
@@ -51749,11 +51749,11 @@ html, body {
   }
 
   .md\:focus\:border-theme-fg-link:focus {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:border-theme-button-primary-background:focus {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:border-theme-button-ghost-outline:focus {
@@ -52085,7 +52085,7 @@ html, body {
   }
 
   .md\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:bg-theme-bg-secondary {
@@ -52125,11 +52125,11 @@ html, body {
   }
 
   .md\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .md\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:bg-theme-button-ghost-outline {
@@ -52161,7 +52161,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .md\:group-hover\:bg-theme-bg-secondary {
@@ -52201,11 +52201,11 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .md\:group-hover\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .md\:group-hover\:bg-theme-button-ghost-outline {
@@ -52237,7 +52237,7 @@ html, body {
   }
 
   .md\:focus-within\:bg-theme-bg-primary:focus-within {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus-within\:bg-theme-bg-secondary:focus-within {
@@ -52277,11 +52277,11 @@ html, body {
   }
 
   .md\:focus-within\:bg-theme-fg-link:focus-within {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus-within\:bg-theme-button-primary-background:focus-within {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus-within\:bg-theme-button-ghost-outline:focus-within {
@@ -52313,7 +52313,7 @@ html, body {
   }
 
   .md\:hover\:bg-theme-bg-primary:hover {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:hover\:bg-theme-bg-secondary:hover {
@@ -52353,11 +52353,11 @@ html, body {
   }
 
   .md\:hover\:bg-theme-fg-link:hover {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .md\:hover\:bg-theme-button-primary-background:hover {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:hover\:bg-theme-button-ghost-outline:hover {
@@ -52389,7 +52389,7 @@ html, body {
   }
 
   .md\:focus\:bg-theme-bg-primary:focus {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:bg-theme-bg-secondary:focus {
@@ -52429,11 +52429,11 @@ html, body {
   }
 
   .md\:focus\:bg-theme-fg-link:focus {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:bg-theme-button-primary-background:focus {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:bg-theme-button-ghost-outline:focus {
@@ -52806,7 +52806,7 @@ html, body {
   }
 
   .md\:from-theme-bg-primary {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52856,12 +52856,12 @@ html, body {
   }
 
   .md\:from-theme-fg-link {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:from-theme-button-primary-background {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52901,7 +52901,7 @@ html, body {
   }
 
   .md\:hover\:from-theme-bg-primary:hover {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52951,12 +52951,12 @@ html, body {
   }
 
   .md\:hover\:from-theme-fg-link:hover {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:from-theme-button-primary-background:hover {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -52996,7 +52996,7 @@ html, body {
   }
 
   .md\:focus\:from-theme-bg-primary:focus {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -53046,12 +53046,12 @@ html, body {
   }
 
   .md\:focus\:from-theme-fg-link:focus {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:from-theme-button-primary-background:focus {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -53086,7 +53086,7 @@ html, body {
   }
 
   .md\:via-theme-bg-primary {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:via-theme-bg-secondary {
@@ -53126,11 +53126,11 @@ html, body {
   }
 
   .md\:via-theme-fg-link {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:via-theme-button-primary-background {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:via-theme-button-ghost-outline {
@@ -53162,7 +53162,7 @@ html, body {
   }
 
   .md\:hover\:via-theme-bg-primary:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:via-theme-bg-secondary:hover {
@@ -53202,11 +53202,11 @@ html, body {
   }
 
   .md\:hover\:via-theme-fg-link:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:via-theme-button-primary-background:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:hover\:via-theme-button-ghost-outline:hover {
@@ -53238,7 +53238,7 @@ html, body {
   }
 
   .md\:focus\:via-theme-bg-primary:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:via-theme-bg-secondary:focus {
@@ -53278,11 +53278,11 @@ html, body {
   }
 
   .md\:focus\:via-theme-fg-link:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:via-theme-button-primary-background:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .md\:focus\:via-theme-button-ghost-outline:focus {
@@ -53314,7 +53314,7 @@ html, body {
   }
 
   .md\:to-theme-bg-primary {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .md\:to-theme-bg-secondary {
@@ -53354,11 +53354,11 @@ html, body {
   }
 
   .md\:to-theme-fg-link {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .md\:to-theme-button-primary-background {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .md\:to-theme-button-ghost-outline {
@@ -53390,7 +53390,7 @@ html, body {
   }
 
   .md\:hover\:to-theme-bg-primary:hover {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .md\:hover\:to-theme-bg-secondary:hover {
@@ -53430,11 +53430,11 @@ html, body {
   }
 
   .md\:hover\:to-theme-fg-link:hover {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .md\:hover\:to-theme-button-primary-background:hover {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .md\:hover\:to-theme-button-ghost-outline:hover {
@@ -53466,7 +53466,7 @@ html, body {
   }
 
   .md\:focus\:to-theme-bg-primary:focus {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:to-theme-bg-secondary:focus {
@@ -53506,11 +53506,11 @@ html, body {
   }
 
   .md\:focus\:to-theme-fg-link:focus {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:to-theme-button-primary-background:focus {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:to-theme-button-ghost-outline:focus {
@@ -55107,7 +55107,7 @@ html, body {
   }
 
   .md\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:text-theme-bg-secondary {
@@ -55147,11 +55147,11 @@ html, body {
   }
 
   .md\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:text-theme-button-ghost-outline {
@@ -55183,7 +55183,7 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .md\:group-hover\:text-theme-bg-secondary {
@@ -55223,11 +55223,11 @@ html, body {
   }
 
   .group:hover .md\:group-hover\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .md\:group-hover\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .md\:group-hover\:text-theme-button-ghost-outline {
@@ -55259,7 +55259,7 @@ html, body {
   }
 
   .md\:focus-within\:text-theme-bg-primary:focus-within {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus-within\:text-theme-bg-secondary:focus-within {
@@ -55299,11 +55299,11 @@ html, body {
   }
 
   .md\:focus-within\:text-theme-fg-link:focus-within {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus-within\:text-theme-button-primary-background:focus-within {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus-within\:text-theme-button-ghost-outline:focus-within {
@@ -55335,7 +55335,7 @@ html, body {
   }
 
   .md\:hover\:text-theme-bg-primary:hover {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:hover\:text-theme-bg-secondary:hover {
@@ -55375,11 +55375,11 @@ html, body {
   }
 
   .md\:hover\:text-theme-fg-link:hover {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:hover\:text-theme-button-primary-background:hover {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:hover\:text-theme-button-ghost-outline:hover {
@@ -55411,7 +55411,7 @@ html, body {
   }
 
   .md\:focus\:text-theme-bg-primary:focus {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:text-theme-bg-secondary:focus {
@@ -55451,11 +55451,11 @@ html, body {
   }
 
   .md\:focus\:text-theme-fg-link:focus {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:text-theme-button-primary-background:focus {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:text-theme-button-ghost-outline:focus {
@@ -55897,15 +55897,15 @@ html, body {
   }
 
   .md\:placeholder-theme-bg-primary::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:placeholder-theme-bg-primary:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:placeholder-theme-bg-primary::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:placeholder-theme-bg-secondary::-moz-placeholder {
@@ -56017,27 +56017,27 @@ html, body {
   }
 
   .md\:placeholder-theme-fg-link::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:placeholder-theme-fg-link:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:placeholder-theme-fg-link::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:placeholder-theme-button-primary-background::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:placeholder-theme-button-primary-background:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:placeholder-theme-button-primary-background::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:placeholder-theme-button-ghost-outline::-moz-placeholder {
@@ -56125,15 +56125,15 @@ html, body {
   }
 
   .md\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:placeholder-theme-bg-primary:focus:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:placeholder-theme-bg-primary:focus::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:placeholder-theme-bg-secondary:focus::-moz-placeholder {
@@ -56245,27 +56245,27 @@ html, body {
   }
 
   .md\:focus\:placeholder-theme-fg-link:focus::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:placeholder-theme-fg-link:focus:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:placeholder-theme-fg-link:focus::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:placeholder-theme-button-primary-background:focus::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:placeholder-theme-button-primary-background:focus:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:placeholder-theme-button-primary-background:focus::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:placeholder-theme-button-ghost-outline:focus::-moz-placeholder {
@@ -57466,7 +57466,7 @@ html, body {
   }
 
   .md\:ring-theme-bg-primary {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:ring-theme-bg-secondary {
@@ -57506,11 +57506,11 @@ html, body {
   }
 
   .md\:ring-theme-fg-link {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .md\:ring-theme-button-primary-background {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:ring-theme-button-ghost-outline {
@@ -57542,7 +57542,7 @@ html, body {
   }
 
   .md\:focus-within\:ring-theme-bg-primary:focus-within {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus-within\:ring-theme-bg-secondary:focus-within {
@@ -57582,11 +57582,11 @@ html, body {
   }
 
   .md\:focus-within\:ring-theme-fg-link:focus-within {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus-within\:ring-theme-button-primary-background:focus-within {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus-within\:ring-theme-button-ghost-outline:focus-within {
@@ -57618,7 +57618,7 @@ html, body {
   }
 
   .md\:focus\:ring-theme-bg-primary:focus {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:ring-theme-bg-secondary:focus {
@@ -57658,11 +57658,11 @@ html, body {
   }
 
   .md\:focus\:ring-theme-fg-link:focus {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:ring-theme-button-primary-background:focus {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:ring-theme-button-ghost-outline:focus {
@@ -57934,7 +57934,7 @@ html, body {
   }
 
   .md\:ring-offset-theme-bg-primary {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:ring-offset-theme-bg-secondary {
@@ -57974,11 +57974,11 @@ html, body {
   }
 
   .md\:ring-offset-theme-fg-link {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .md\:ring-offset-theme-button-primary-background {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:ring-offset-theme-button-ghost-outline {
@@ -58010,7 +58010,7 @@ html, body {
   }
 
   .md\:focus-within\:ring-offset-theme-bg-primary:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus-within\:ring-offset-theme-bg-secondary:focus-within {
@@ -58050,11 +58050,11 @@ html, body {
   }
 
   .md\:focus-within\:ring-offset-theme-fg-link:focus-within {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus-within\:ring-offset-theme-button-primary-background:focus-within {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus-within\:ring-offset-theme-button-ghost-outline:focus-within {
@@ -58086,7 +58086,7 @@ html, body {
   }
 
   .md\:focus\:ring-offset-theme-bg-primary:focus {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .md\:focus\:ring-offset-theme-bg-secondary:focus {
@@ -58126,11 +58126,11 @@ html, body {
   }
 
   .md\:focus\:ring-offset-theme-fg-link:focus {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .md\:focus\:ring-offset-theme-button-primary-background:focus {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .md\:focus\:ring-offset-theme-button-ghost-outline:focus {
@@ -69954,7 +69954,7 @@ html, body {
   }
 
   .lg\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:divide-theme-bg-secondary > :not([hidden]) ~ :not([hidden]) {
@@ -69994,11 +69994,11 @@ html, body {
   }
 
   .lg\:divide-theme-fg-link > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:divide-theme-button-primary-background > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:divide-theme-button-ghost-outline > :not([hidden]) ~ :not([hidden]) {
@@ -70768,7 +70768,7 @@ html, body {
   }
 
   .lg\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:border-theme-bg-secondary {
@@ -70808,11 +70808,11 @@ html, body {
   }
 
   .lg\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:border-theme-button-ghost-outline {
@@ -70844,7 +70844,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .lg\:group-hover\:border-theme-bg-secondary {
@@ -70884,11 +70884,11 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .lg\:group-hover\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .lg\:group-hover\:border-theme-button-ghost-outline {
@@ -70920,7 +70920,7 @@ html, body {
   }
 
   .lg\:focus-within\:border-theme-bg-primary:focus-within {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus-within\:border-theme-bg-secondary:focus-within {
@@ -70960,11 +70960,11 @@ html, body {
   }
 
   .lg\:focus-within\:border-theme-fg-link:focus-within {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus-within\:border-theme-button-primary-background:focus-within {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus-within\:border-theme-button-ghost-outline:focus-within {
@@ -70996,7 +70996,7 @@ html, body {
   }
 
   .lg\:hover\:border-theme-bg-primary:hover {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:hover\:border-theme-bg-secondary:hover {
@@ -71036,11 +71036,11 @@ html, body {
   }
 
   .lg\:hover\:border-theme-fg-link:hover {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:hover\:border-theme-button-primary-background:hover {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:hover\:border-theme-button-ghost-outline:hover {
@@ -71072,7 +71072,7 @@ html, body {
   }
 
   .lg\:focus\:border-theme-bg-primary:focus {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:border-theme-bg-secondary:focus {
@@ -71112,11 +71112,11 @@ html, body {
   }
 
   .lg\:focus\:border-theme-fg-link:focus {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:border-theme-button-primary-background:focus {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:border-theme-button-ghost-outline:focus {
@@ -71448,7 +71448,7 @@ html, body {
   }
 
   .lg\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:bg-theme-bg-secondary {
@@ -71488,11 +71488,11 @@ html, body {
   }
 
   .lg\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:bg-theme-button-ghost-outline {
@@ -71524,7 +71524,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .lg\:group-hover\:bg-theme-bg-secondary {
@@ -71564,11 +71564,11 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .lg\:group-hover\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .lg\:group-hover\:bg-theme-button-ghost-outline {
@@ -71600,7 +71600,7 @@ html, body {
   }
 
   .lg\:focus-within\:bg-theme-bg-primary:focus-within {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus-within\:bg-theme-bg-secondary:focus-within {
@@ -71640,11 +71640,11 @@ html, body {
   }
 
   .lg\:focus-within\:bg-theme-fg-link:focus-within {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus-within\:bg-theme-button-primary-background:focus-within {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus-within\:bg-theme-button-ghost-outline:focus-within {
@@ -71676,7 +71676,7 @@ html, body {
   }
 
   .lg\:hover\:bg-theme-bg-primary:hover {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:hover\:bg-theme-bg-secondary:hover {
@@ -71716,11 +71716,11 @@ html, body {
   }
 
   .lg\:hover\:bg-theme-fg-link:hover {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:hover\:bg-theme-button-primary-background:hover {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:hover\:bg-theme-button-ghost-outline:hover {
@@ -71752,7 +71752,7 @@ html, body {
   }
 
   .lg\:focus\:bg-theme-bg-primary:focus {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:bg-theme-bg-secondary:focus {
@@ -71792,11 +71792,11 @@ html, body {
   }
 
   .lg\:focus\:bg-theme-fg-link:focus {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:bg-theme-button-primary-background:focus {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:bg-theme-button-ghost-outline:focus {
@@ -72169,7 +72169,7 @@ html, body {
   }
 
   .lg\:from-theme-bg-primary {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72219,12 +72219,12 @@ html, body {
   }
 
   .lg\:from-theme-fg-link {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:from-theme-button-primary-background {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72264,7 +72264,7 @@ html, body {
   }
 
   .lg\:hover\:from-theme-bg-primary:hover {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72314,12 +72314,12 @@ html, body {
   }
 
   .lg\:hover\:from-theme-fg-link:hover {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:from-theme-button-primary-background:hover {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72359,7 +72359,7 @@ html, body {
   }
 
   .lg\:focus\:from-theme-bg-primary:focus {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72409,12 +72409,12 @@ html, body {
   }
 
   .lg\:focus\:from-theme-fg-link:focus {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:from-theme-button-primary-background:focus {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -72449,7 +72449,7 @@ html, body {
   }
 
   .lg\:via-theme-bg-primary {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:via-theme-bg-secondary {
@@ -72489,11 +72489,11 @@ html, body {
   }
 
   .lg\:via-theme-fg-link {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:via-theme-button-primary-background {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:via-theme-button-ghost-outline {
@@ -72525,7 +72525,7 @@ html, body {
   }
 
   .lg\:hover\:via-theme-bg-primary:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:via-theme-bg-secondary:hover {
@@ -72565,11 +72565,11 @@ html, body {
   }
 
   .lg\:hover\:via-theme-fg-link:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:via-theme-button-primary-background:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:hover\:via-theme-button-ghost-outline:hover {
@@ -72601,7 +72601,7 @@ html, body {
   }
 
   .lg\:focus\:via-theme-bg-primary:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:via-theme-bg-secondary:focus {
@@ -72641,11 +72641,11 @@ html, body {
   }
 
   .lg\:focus\:via-theme-fg-link:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:via-theme-button-primary-background:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .lg\:focus\:via-theme-button-ghost-outline:focus {
@@ -72677,7 +72677,7 @@ html, body {
   }
 
   .lg\:to-theme-bg-primary {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .lg\:to-theme-bg-secondary {
@@ -72717,11 +72717,11 @@ html, body {
   }
 
   .lg\:to-theme-fg-link {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .lg\:to-theme-button-primary-background {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:to-theme-button-ghost-outline {
@@ -72753,7 +72753,7 @@ html, body {
   }
 
   .lg\:hover\:to-theme-bg-primary:hover {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .lg\:hover\:to-theme-bg-secondary:hover {
@@ -72793,11 +72793,11 @@ html, body {
   }
 
   .lg\:hover\:to-theme-fg-link:hover {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .lg\:hover\:to-theme-button-primary-background:hover {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:hover\:to-theme-button-ghost-outline:hover {
@@ -72829,7 +72829,7 @@ html, body {
   }
 
   .lg\:focus\:to-theme-bg-primary:focus {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:to-theme-bg-secondary:focus {
@@ -72869,11 +72869,11 @@ html, body {
   }
 
   .lg\:focus\:to-theme-fg-link:focus {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:to-theme-button-primary-background:focus {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:to-theme-button-ghost-outline:focus {
@@ -74470,7 +74470,7 @@ html, body {
   }
 
   .lg\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:text-theme-bg-secondary {
@@ -74510,11 +74510,11 @@ html, body {
   }
 
   .lg\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:text-theme-button-ghost-outline {
@@ -74546,7 +74546,7 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .lg\:group-hover\:text-theme-bg-secondary {
@@ -74586,11 +74586,11 @@ html, body {
   }
 
   .group:hover .lg\:group-hover\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .lg\:group-hover\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .lg\:group-hover\:text-theme-button-ghost-outline {
@@ -74622,7 +74622,7 @@ html, body {
   }
 
   .lg\:focus-within\:text-theme-bg-primary:focus-within {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus-within\:text-theme-bg-secondary:focus-within {
@@ -74662,11 +74662,11 @@ html, body {
   }
 
   .lg\:focus-within\:text-theme-fg-link:focus-within {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus-within\:text-theme-button-primary-background:focus-within {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus-within\:text-theme-button-ghost-outline:focus-within {
@@ -74698,7 +74698,7 @@ html, body {
   }
 
   .lg\:hover\:text-theme-bg-primary:hover {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:hover\:text-theme-bg-secondary:hover {
@@ -74738,11 +74738,11 @@ html, body {
   }
 
   .lg\:hover\:text-theme-fg-link:hover {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:hover\:text-theme-button-primary-background:hover {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:hover\:text-theme-button-ghost-outline:hover {
@@ -74774,7 +74774,7 @@ html, body {
   }
 
   .lg\:focus\:text-theme-bg-primary:focus {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:text-theme-bg-secondary:focus {
@@ -74814,11 +74814,11 @@ html, body {
   }
 
   .lg\:focus\:text-theme-fg-link:focus {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:text-theme-button-primary-background:focus {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:text-theme-button-ghost-outline:focus {
@@ -75260,15 +75260,15 @@ html, body {
   }
 
   .lg\:placeholder-theme-bg-primary::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:placeholder-theme-bg-primary:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:placeholder-theme-bg-primary::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:placeholder-theme-bg-secondary::-moz-placeholder {
@@ -75380,27 +75380,27 @@ html, body {
   }
 
   .lg\:placeholder-theme-fg-link::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:placeholder-theme-fg-link:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:placeholder-theme-fg-link::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:placeholder-theme-button-primary-background::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:placeholder-theme-button-primary-background:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:placeholder-theme-button-primary-background::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:placeholder-theme-button-ghost-outline::-moz-placeholder {
@@ -75488,15 +75488,15 @@ html, body {
   }
 
   .lg\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:placeholder-theme-bg-primary:focus:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:placeholder-theme-bg-primary:focus::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:placeholder-theme-bg-secondary:focus::-moz-placeholder {
@@ -75608,27 +75608,27 @@ html, body {
   }
 
   .lg\:focus\:placeholder-theme-fg-link:focus::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:placeholder-theme-fg-link:focus:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:placeholder-theme-fg-link:focus::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:placeholder-theme-button-primary-background:focus::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:placeholder-theme-button-primary-background:focus:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:placeholder-theme-button-primary-background:focus::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:placeholder-theme-button-ghost-outline:focus::-moz-placeholder {
@@ -76829,7 +76829,7 @@ html, body {
   }
 
   .lg\:ring-theme-bg-primary {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:ring-theme-bg-secondary {
@@ -76869,11 +76869,11 @@ html, body {
   }
 
   .lg\:ring-theme-fg-link {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:ring-theme-button-primary-background {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:ring-theme-button-ghost-outline {
@@ -76905,7 +76905,7 @@ html, body {
   }
 
   .lg\:focus-within\:ring-theme-bg-primary:focus-within {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus-within\:ring-theme-bg-secondary:focus-within {
@@ -76945,11 +76945,11 @@ html, body {
   }
 
   .lg\:focus-within\:ring-theme-fg-link:focus-within {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus-within\:ring-theme-button-primary-background:focus-within {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus-within\:ring-theme-button-ghost-outline:focus-within {
@@ -76981,7 +76981,7 @@ html, body {
   }
 
   .lg\:focus\:ring-theme-bg-primary:focus {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:ring-theme-bg-secondary:focus {
@@ -77021,11 +77021,11 @@ html, body {
   }
 
   .lg\:focus\:ring-theme-fg-link:focus {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:ring-theme-button-primary-background:focus {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:ring-theme-button-ghost-outline:focus {
@@ -77297,7 +77297,7 @@ html, body {
   }
 
   .lg\:ring-offset-theme-bg-primary {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:ring-offset-theme-bg-secondary {
@@ -77337,11 +77337,11 @@ html, body {
   }
 
   .lg\:ring-offset-theme-fg-link {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:ring-offset-theme-button-primary-background {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:ring-offset-theme-button-ghost-outline {
@@ -77373,7 +77373,7 @@ html, body {
   }
 
   .lg\:focus-within\:ring-offset-theme-bg-primary:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus-within\:ring-offset-theme-bg-secondary:focus-within {
@@ -77413,11 +77413,11 @@ html, body {
   }
 
   .lg\:focus-within\:ring-offset-theme-fg-link:focus-within {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus-within\:ring-offset-theme-button-primary-background:focus-within {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus-within\:ring-offset-theme-button-ghost-outline:focus-within {
@@ -77449,7 +77449,7 @@ html, body {
   }
 
   .lg\:focus\:ring-offset-theme-bg-primary:focus {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .lg\:focus\:ring-offset-theme-bg-secondary:focus {
@@ -77489,11 +77489,11 @@ html, body {
   }
 
   .lg\:focus\:ring-offset-theme-fg-link:focus {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .lg\:focus\:ring-offset-theme-button-primary-background:focus {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .lg\:focus\:ring-offset-theme-button-ghost-outline:focus {
@@ -89317,7 +89317,7 @@ html, body {
   }
 
   .xl\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:divide-theme-bg-secondary > :not([hidden]) ~ :not([hidden]) {
@@ -89357,11 +89357,11 @@ html, body {
   }
 
   .xl\:divide-theme-fg-link > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:divide-theme-button-primary-background > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:divide-theme-button-ghost-outline > :not([hidden]) ~ :not([hidden]) {
@@ -90131,7 +90131,7 @@ html, body {
   }
 
   .xl\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:border-theme-bg-secondary {
@@ -90171,11 +90171,11 @@ html, body {
   }
 
   .xl\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:border-theme-button-ghost-outline {
@@ -90207,7 +90207,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .xl\:group-hover\:border-theme-bg-secondary {
@@ -90247,11 +90247,11 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .xl\:group-hover\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .xl\:group-hover\:border-theme-button-ghost-outline {
@@ -90283,7 +90283,7 @@ html, body {
   }
 
   .xl\:focus-within\:border-theme-bg-primary:focus-within {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus-within\:border-theme-bg-secondary:focus-within {
@@ -90323,11 +90323,11 @@ html, body {
   }
 
   .xl\:focus-within\:border-theme-fg-link:focus-within {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus-within\:border-theme-button-primary-background:focus-within {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus-within\:border-theme-button-ghost-outline:focus-within {
@@ -90359,7 +90359,7 @@ html, body {
   }
 
   .xl\:hover\:border-theme-bg-primary:hover {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:hover\:border-theme-bg-secondary:hover {
@@ -90399,11 +90399,11 @@ html, body {
   }
 
   .xl\:hover\:border-theme-fg-link:hover {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:hover\:border-theme-button-primary-background:hover {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:hover\:border-theme-button-ghost-outline:hover {
@@ -90435,7 +90435,7 @@ html, body {
   }
 
   .xl\:focus\:border-theme-bg-primary:focus {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:border-theme-bg-secondary:focus {
@@ -90475,11 +90475,11 @@ html, body {
   }
 
   .xl\:focus\:border-theme-fg-link:focus {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:border-theme-button-primary-background:focus {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:border-theme-button-ghost-outline:focus {
@@ -90811,7 +90811,7 @@ html, body {
   }
 
   .xl\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:bg-theme-bg-secondary {
@@ -90851,11 +90851,11 @@ html, body {
   }
 
   .xl\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:bg-theme-button-ghost-outline {
@@ -90887,7 +90887,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .xl\:group-hover\:bg-theme-bg-secondary {
@@ -90927,11 +90927,11 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .xl\:group-hover\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .xl\:group-hover\:bg-theme-button-ghost-outline {
@@ -90963,7 +90963,7 @@ html, body {
   }
 
   .xl\:focus-within\:bg-theme-bg-primary:focus-within {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus-within\:bg-theme-bg-secondary:focus-within {
@@ -91003,11 +91003,11 @@ html, body {
   }
 
   .xl\:focus-within\:bg-theme-fg-link:focus-within {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus-within\:bg-theme-button-primary-background:focus-within {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus-within\:bg-theme-button-ghost-outline:focus-within {
@@ -91039,7 +91039,7 @@ html, body {
   }
 
   .xl\:hover\:bg-theme-bg-primary:hover {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:hover\:bg-theme-bg-secondary:hover {
@@ -91079,11 +91079,11 @@ html, body {
   }
 
   .xl\:hover\:bg-theme-fg-link:hover {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:hover\:bg-theme-button-primary-background:hover {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:hover\:bg-theme-button-ghost-outline:hover {
@@ -91115,7 +91115,7 @@ html, body {
   }
 
   .xl\:focus\:bg-theme-bg-primary:focus {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:bg-theme-bg-secondary:focus {
@@ -91155,11 +91155,11 @@ html, body {
   }
 
   .xl\:focus\:bg-theme-fg-link:focus {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:bg-theme-button-primary-background:focus {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:bg-theme-button-ghost-outline:focus {
@@ -91532,7 +91532,7 @@ html, body {
   }
 
   .xl\:from-theme-bg-primary {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91582,12 +91582,12 @@ html, body {
   }
 
   .xl\:from-theme-fg-link {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:from-theme-button-primary-background {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91627,7 +91627,7 @@ html, body {
   }
 
   .xl\:hover\:from-theme-bg-primary:hover {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91677,12 +91677,12 @@ html, body {
   }
 
   .xl\:hover\:from-theme-fg-link:hover {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:from-theme-button-primary-background:hover {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91722,7 +91722,7 @@ html, body {
   }
 
   .xl\:focus\:from-theme-bg-primary:focus {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91772,12 +91772,12 @@ html, body {
   }
 
   .xl\:focus\:from-theme-fg-link:focus {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:from-theme-button-primary-background:focus {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -91812,7 +91812,7 @@ html, body {
   }
 
   .xl\:via-theme-bg-primary {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:via-theme-bg-secondary {
@@ -91852,11 +91852,11 @@ html, body {
   }
 
   .xl\:via-theme-fg-link {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:via-theme-button-primary-background {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:via-theme-button-ghost-outline {
@@ -91888,7 +91888,7 @@ html, body {
   }
 
   .xl\:hover\:via-theme-bg-primary:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:via-theme-bg-secondary:hover {
@@ -91928,11 +91928,11 @@ html, body {
   }
 
   .xl\:hover\:via-theme-fg-link:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:via-theme-button-primary-background:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:hover\:via-theme-button-ghost-outline:hover {
@@ -91964,7 +91964,7 @@ html, body {
   }
 
   .xl\:focus\:via-theme-bg-primary:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:via-theme-bg-secondary:focus {
@@ -92004,11 +92004,11 @@ html, body {
   }
 
   .xl\:focus\:via-theme-fg-link:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:via-theme-button-primary-background:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .xl\:focus\:via-theme-button-ghost-outline:focus {
@@ -92040,7 +92040,7 @@ html, body {
   }
 
   .xl\:to-theme-bg-primary {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .xl\:to-theme-bg-secondary {
@@ -92080,11 +92080,11 @@ html, body {
   }
 
   .xl\:to-theme-fg-link {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .xl\:to-theme-button-primary-background {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:to-theme-button-ghost-outline {
@@ -92116,7 +92116,7 @@ html, body {
   }
 
   .xl\:hover\:to-theme-bg-primary:hover {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .xl\:hover\:to-theme-bg-secondary:hover {
@@ -92156,11 +92156,11 @@ html, body {
   }
 
   .xl\:hover\:to-theme-fg-link:hover {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .xl\:hover\:to-theme-button-primary-background:hover {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:hover\:to-theme-button-ghost-outline:hover {
@@ -92192,7 +92192,7 @@ html, body {
   }
 
   .xl\:focus\:to-theme-bg-primary:focus {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:to-theme-bg-secondary:focus {
@@ -92232,11 +92232,11 @@ html, body {
   }
 
   .xl\:focus\:to-theme-fg-link:focus {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:to-theme-button-primary-background:focus {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:to-theme-button-ghost-outline:focus {
@@ -93833,7 +93833,7 @@ html, body {
   }
 
   .xl\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:text-theme-bg-secondary {
@@ -93873,11 +93873,11 @@ html, body {
   }
 
   .xl\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:text-theme-button-ghost-outline {
@@ -93909,7 +93909,7 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .xl\:group-hover\:text-theme-bg-secondary {
@@ -93949,11 +93949,11 @@ html, body {
   }
 
   .group:hover .xl\:group-hover\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .xl\:group-hover\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .xl\:group-hover\:text-theme-button-ghost-outline {
@@ -93985,7 +93985,7 @@ html, body {
   }
 
   .xl\:focus-within\:text-theme-bg-primary:focus-within {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus-within\:text-theme-bg-secondary:focus-within {
@@ -94025,11 +94025,11 @@ html, body {
   }
 
   .xl\:focus-within\:text-theme-fg-link:focus-within {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus-within\:text-theme-button-primary-background:focus-within {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus-within\:text-theme-button-ghost-outline:focus-within {
@@ -94061,7 +94061,7 @@ html, body {
   }
 
   .xl\:hover\:text-theme-bg-primary:hover {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:hover\:text-theme-bg-secondary:hover {
@@ -94101,11 +94101,11 @@ html, body {
   }
 
   .xl\:hover\:text-theme-fg-link:hover {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:hover\:text-theme-button-primary-background:hover {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:hover\:text-theme-button-ghost-outline:hover {
@@ -94137,7 +94137,7 @@ html, body {
   }
 
   .xl\:focus\:text-theme-bg-primary:focus {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:text-theme-bg-secondary:focus {
@@ -94177,11 +94177,11 @@ html, body {
   }
 
   .xl\:focus\:text-theme-fg-link:focus {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:text-theme-button-primary-background:focus {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:text-theme-button-ghost-outline:focus {
@@ -94623,15 +94623,15 @@ html, body {
   }
 
   .xl\:placeholder-theme-bg-primary::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:placeholder-theme-bg-primary:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:placeholder-theme-bg-primary::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:placeholder-theme-bg-secondary::-moz-placeholder {
@@ -94743,27 +94743,27 @@ html, body {
   }
 
   .xl\:placeholder-theme-fg-link::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:placeholder-theme-fg-link:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:placeholder-theme-fg-link::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:placeholder-theme-button-primary-background::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:placeholder-theme-button-primary-background:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:placeholder-theme-button-primary-background::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:placeholder-theme-button-ghost-outline::-moz-placeholder {
@@ -94851,15 +94851,15 @@ html, body {
   }
 
   .xl\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:placeholder-theme-bg-primary:focus:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:placeholder-theme-bg-primary:focus::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:placeholder-theme-bg-secondary:focus::-moz-placeholder {
@@ -94971,27 +94971,27 @@ html, body {
   }
 
   .xl\:focus\:placeholder-theme-fg-link:focus::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:placeholder-theme-fg-link:focus:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:placeholder-theme-fg-link:focus::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:placeholder-theme-button-primary-background:focus::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:placeholder-theme-button-primary-background:focus:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:placeholder-theme-button-primary-background:focus::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:placeholder-theme-button-ghost-outline:focus::-moz-placeholder {
@@ -96192,7 +96192,7 @@ html, body {
   }
 
   .xl\:ring-theme-bg-primary {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:ring-theme-bg-secondary {
@@ -96232,11 +96232,11 @@ html, body {
   }
 
   .xl\:ring-theme-fg-link {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:ring-theme-button-primary-background {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:ring-theme-button-ghost-outline {
@@ -96268,7 +96268,7 @@ html, body {
   }
 
   .xl\:focus-within\:ring-theme-bg-primary:focus-within {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus-within\:ring-theme-bg-secondary:focus-within {
@@ -96308,11 +96308,11 @@ html, body {
   }
 
   .xl\:focus-within\:ring-theme-fg-link:focus-within {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus-within\:ring-theme-button-primary-background:focus-within {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus-within\:ring-theme-button-ghost-outline:focus-within {
@@ -96344,7 +96344,7 @@ html, body {
   }
 
   .xl\:focus\:ring-theme-bg-primary:focus {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:ring-theme-bg-secondary:focus {
@@ -96384,11 +96384,11 @@ html, body {
   }
 
   .xl\:focus\:ring-theme-fg-link:focus {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:ring-theme-button-primary-background:focus {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:ring-theme-button-ghost-outline:focus {
@@ -96660,7 +96660,7 @@ html, body {
   }
 
   .xl\:ring-offset-theme-bg-primary {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:ring-offset-theme-bg-secondary {
@@ -96700,11 +96700,11 @@ html, body {
   }
 
   .xl\:ring-offset-theme-fg-link {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:ring-offset-theme-button-primary-background {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:ring-offset-theme-button-ghost-outline {
@@ -96736,7 +96736,7 @@ html, body {
   }
 
   .xl\:focus-within\:ring-offset-theme-bg-primary:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus-within\:ring-offset-theme-bg-secondary:focus-within {
@@ -96776,11 +96776,11 @@ html, body {
   }
 
   .xl\:focus-within\:ring-offset-theme-fg-link:focus-within {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus-within\:ring-offset-theme-button-primary-background:focus-within {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus-within\:ring-offset-theme-button-ghost-outline:focus-within {
@@ -96812,7 +96812,7 @@ html, body {
   }
 
   .xl\:focus\:ring-offset-theme-bg-primary:focus {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .xl\:focus\:ring-offset-theme-bg-secondary:focus {
@@ -96852,11 +96852,11 @@ html, body {
   }
 
   .xl\:focus\:ring-offset-theme-fg-link:focus {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .xl\:focus\:ring-offset-theme-button-primary-background:focus {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .xl\:focus\:ring-offset-theme-button-ghost-outline:focus {
@@ -108680,7 +108680,7 @@ html, body {
   }
 
   .\32xl\:divide-theme-bg-primary > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:divide-theme-bg-secondary > :not([hidden]) ~ :not([hidden]) {
@@ -108720,11 +108720,11 @@ html, body {
   }
 
   .\32xl\:divide-theme-fg-link > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:divide-theme-button-primary-background > :not([hidden]) ~ :not([hidden]) {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:divide-theme-button-ghost-outline > :not([hidden]) ~ :not([hidden]) {
@@ -109494,7 +109494,7 @@ html, body {
   }
 
   .\32xl\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:border-theme-bg-secondary {
@@ -109534,11 +109534,11 @@ html, body {
   }
 
   .\32xl\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:border-theme-button-ghost-outline {
@@ -109570,7 +109570,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-bg-primary {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-bg-secondary {
@@ -109610,11 +109610,11 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-fg-link {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-button-primary-background {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:border-theme-button-ghost-outline {
@@ -109646,7 +109646,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:border-theme-bg-primary:focus-within {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus-within\:border-theme-bg-secondary:focus-within {
@@ -109686,11 +109686,11 @@ html, body {
   }
 
   .\32xl\:focus-within\:border-theme-fg-link:focus-within {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus-within\:border-theme-button-primary-background:focus-within {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus-within\:border-theme-button-ghost-outline:focus-within {
@@ -109722,7 +109722,7 @@ html, body {
   }
 
   .\32xl\:hover\:border-theme-bg-primary:hover {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:hover\:border-theme-bg-secondary:hover {
@@ -109762,11 +109762,11 @@ html, body {
   }
 
   .\32xl\:hover\:border-theme-fg-link:hover {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:hover\:border-theme-button-primary-background:hover {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:hover\:border-theme-button-ghost-outline:hover {
@@ -109798,7 +109798,7 @@ html, body {
   }
 
   .\32xl\:focus\:border-theme-bg-primary:focus {
-    border-color: var(--theme-bg-primary, #6B7280);
+    border-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:border-theme-bg-secondary:focus {
@@ -109838,11 +109838,11 @@ html, body {
   }
 
   .\32xl\:focus\:border-theme-fg-link:focus {
-    border-color: var(--theme-fg-link, #6B7280);
+    border-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:border-theme-button-primary-background:focus {
-    border-color: var(--theme-button-primary-background, #6B7280);
+    border-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:border-theme-button-ghost-outline:focus {
@@ -110174,7 +110174,7 @@ html, body {
   }
 
   .\32xl\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:bg-theme-bg-secondary {
@@ -110214,11 +110214,11 @@ html, body {
   }
 
   .\32xl\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:bg-theme-button-ghost-outline {
@@ -110250,7 +110250,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-bg-primary {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-bg-secondary {
@@ -110290,11 +110290,11 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-fg-link {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-button-primary-background {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:bg-theme-button-ghost-outline {
@@ -110326,7 +110326,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:bg-theme-bg-primary:focus-within {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus-within\:bg-theme-bg-secondary:focus-within {
@@ -110366,11 +110366,11 @@ html, body {
   }
 
   .\32xl\:focus-within\:bg-theme-fg-link:focus-within {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus-within\:bg-theme-button-primary-background:focus-within {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus-within\:bg-theme-button-ghost-outline:focus-within {
@@ -110402,7 +110402,7 @@ html, body {
   }
 
   .\32xl\:hover\:bg-theme-bg-primary:hover {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:hover\:bg-theme-bg-secondary:hover {
@@ -110442,11 +110442,11 @@ html, body {
   }
 
   .\32xl\:hover\:bg-theme-fg-link:hover {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:hover\:bg-theme-button-primary-background:hover {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:hover\:bg-theme-button-ghost-outline:hover {
@@ -110478,7 +110478,7 @@ html, body {
   }
 
   .\32xl\:focus\:bg-theme-bg-primary:focus {
-    background-color: var(--theme-bg-primary, #6B7280);
+    background-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:bg-theme-bg-secondary:focus {
@@ -110518,11 +110518,11 @@ html, body {
   }
 
   .\32xl\:focus\:bg-theme-fg-link:focus {
-    background-color: var(--theme-fg-link, #6B7280);
+    background-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:bg-theme-button-primary-background:focus {
-    background-color: var(--theme-button-primary-background, #6B7280);
+    background-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:bg-theme-button-ghost-outline:focus {
@@ -110895,7 +110895,7 @@ html, body {
   }
 
   .\32xl\:from-theme-bg-primary {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -110945,12 +110945,12 @@ html, body {
   }
 
   .\32xl\:from-theme-fg-link {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:from-theme-button-primary-background {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -110990,7 +110990,7 @@ html, body {
   }
 
   .\32xl\:hover\:from-theme-bg-primary:hover {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -111040,12 +111040,12 @@ html, body {
   }
 
   .\32xl\:hover\:from-theme-fg-link:hover {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:hover\:from-theme-button-primary-background:hover {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -111085,7 +111085,7 @@ html, body {
   }
 
   .\32xl\:focus\:from-theme-bg-primary:focus {
-    --tw-gradient-from: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-from: var(--theme-bg-primary, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -111135,12 +111135,12 @@ html, body {
   }
 
   .\32xl\:focus\:from-theme-fg-link:focus {
-    --tw-gradient-from: var(--theme-fg-link, #6B7280);
+    --tw-gradient-from: var(--theme-fg-link, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:focus\:from-theme-button-primary-background:focus {
-    --tw-gradient-from: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-from: var(--theme-button-primary-background, #f00);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
@@ -111175,7 +111175,7 @@ html, body {
   }
 
   .\32xl\:via-theme-bg-primary {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:via-theme-bg-secondary {
@@ -111215,11 +111215,11 @@ html, body {
   }
 
   .\32xl\:via-theme-fg-link {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:via-theme-button-primary-background {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:via-theme-button-ghost-outline {
@@ -111251,7 +111251,7 @@ html, body {
   }
 
   .\32xl\:hover\:via-theme-bg-primary:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:hover\:via-theme-bg-secondary:hover {
@@ -111291,11 +111291,11 @@ html, body {
   }
 
   .\32xl\:hover\:via-theme-fg-link:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:hover\:via-theme-button-primary-background:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:hover\:via-theme-button-ghost-outline:hover {
@@ -111327,7 +111327,7 @@ html, body {
   }
 
   .\32xl\:focus\:via-theme-bg-primary:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-bg-primary, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:focus\:via-theme-bg-secondary:focus {
@@ -111367,11 +111367,11 @@ html, body {
   }
 
   .\32xl\:focus\:via-theme-fg-link:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-fg-link, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:focus\:via-theme-button-primary-background:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #6B7280), var(--tw-gradient-to, rgba(255, 255, 255, 0));
+    --tw-gradient-stops: var(--tw-gradient-from), var(--theme-button-primary-background, #f00), var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
 
   .\32xl\:focus\:via-theme-button-ghost-outline:focus {
@@ -111403,7 +111403,7 @@ html, body {
   }
 
   .\32xl\:to-theme-bg-primary {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:to-theme-bg-secondary {
@@ -111443,11 +111443,11 @@ html, body {
   }
 
   .\32xl\:to-theme-fg-link {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:to-theme-button-primary-background {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:to-theme-button-ghost-outline {
@@ -111479,7 +111479,7 @@ html, body {
   }
 
   .\32xl\:hover\:to-theme-bg-primary:hover {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:hover\:to-theme-bg-secondary:hover {
@@ -111519,11 +111519,11 @@ html, body {
   }
 
   .\32xl\:hover\:to-theme-fg-link:hover {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:hover\:to-theme-button-primary-background:hover {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:hover\:to-theme-button-ghost-outline:hover {
@@ -111555,7 +111555,7 @@ html, body {
   }
 
   .\32xl\:focus\:to-theme-bg-primary:focus {
-    --tw-gradient-to: var(--theme-bg-primary, #6B7280);
+    --tw-gradient-to: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:to-theme-bg-secondary:focus {
@@ -111595,11 +111595,11 @@ html, body {
   }
 
   .\32xl\:focus\:to-theme-fg-link:focus {
-    --tw-gradient-to: var(--theme-fg-link, #6B7280);
+    --tw-gradient-to: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:to-theme-button-primary-background:focus {
-    --tw-gradient-to: var(--theme-button-primary-background, #6B7280);
+    --tw-gradient-to: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:to-theme-button-ghost-outline:focus {
@@ -113196,7 +113196,7 @@ html, body {
   }
 
   .\32xl\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:text-theme-bg-secondary {
@@ -113236,11 +113236,11 @@ html, body {
   }
 
   .\32xl\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:text-theme-button-ghost-outline {
@@ -113272,7 +113272,7 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-bg-primary {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-bg-secondary {
@@ -113312,11 +113312,11 @@ html, body {
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-fg-link {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-button-primary-background {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .group:hover .\32xl\:group-hover\:text-theme-button-ghost-outline {
@@ -113348,7 +113348,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:text-theme-bg-primary:focus-within {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus-within\:text-theme-bg-secondary:focus-within {
@@ -113388,11 +113388,11 @@ html, body {
   }
 
   .\32xl\:focus-within\:text-theme-fg-link:focus-within {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus-within\:text-theme-button-primary-background:focus-within {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus-within\:text-theme-button-ghost-outline:focus-within {
@@ -113424,7 +113424,7 @@ html, body {
   }
 
   .\32xl\:hover\:text-theme-bg-primary:hover {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:hover\:text-theme-bg-secondary:hover {
@@ -113464,11 +113464,11 @@ html, body {
   }
 
   .\32xl\:hover\:text-theme-fg-link:hover {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:hover\:text-theme-button-primary-background:hover {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:hover\:text-theme-button-ghost-outline:hover {
@@ -113500,7 +113500,7 @@ html, body {
   }
 
   .\32xl\:focus\:text-theme-bg-primary:focus {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:text-theme-bg-secondary:focus {
@@ -113540,11 +113540,11 @@ html, body {
   }
 
   .\32xl\:focus\:text-theme-fg-link:focus {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:text-theme-button-primary-background:focus {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:text-theme-button-ghost-outline:focus {
@@ -113986,15 +113986,15 @@ html, body {
   }
 
   .\32xl\:placeholder-theme-bg-primary::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:placeholder-theme-bg-primary:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:placeholder-theme-bg-primary::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:placeholder-theme-bg-secondary::-moz-placeholder {
@@ -114106,27 +114106,27 @@ html, body {
   }
 
   .\32xl\:placeholder-theme-fg-link::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:placeholder-theme-fg-link:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:placeholder-theme-fg-link::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:placeholder-theme-button-primary-background::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:placeholder-theme-button-primary-background:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:placeholder-theme-button-primary-background::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:placeholder-theme-button-ghost-outline::-moz-placeholder {
@@ -114214,15 +114214,15 @@ html, body {
   }
 
   .\32xl\:focus\:placeholder-theme-bg-primary:focus::-moz-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-primary:focus:-ms-input-placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-primary:focus::placeholder {
-    color: var(--theme-bg-primary, #6B7280);
+    color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-bg-secondary:focus::-moz-placeholder {
@@ -114334,27 +114334,27 @@ html, body {
   }
 
   .\32xl\:focus\:placeholder-theme-fg-link:focus::-moz-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-fg-link:focus:-ms-input-placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-fg-link:focus::placeholder {
-    color: var(--theme-fg-link, #6B7280);
+    color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-button-primary-background:focus::-moz-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-button-primary-background:focus:-ms-input-placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-button-primary-background:focus::placeholder {
-    color: var(--theme-button-primary-background, #6B7280);
+    color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:placeholder-theme-button-ghost-outline:focus::-moz-placeholder {
@@ -115555,7 +115555,7 @@ html, body {
   }
 
   .\32xl\:ring-theme-bg-primary {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:ring-theme-bg-secondary {
@@ -115595,11 +115595,11 @@ html, body {
   }
 
   .\32xl\:ring-theme-fg-link {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:ring-theme-button-primary-background {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:ring-theme-button-ghost-outline {
@@ -115631,7 +115631,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-theme-bg-primary:focus-within {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus-within\:ring-theme-bg-secondary:focus-within {
@@ -115671,11 +115671,11 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-theme-fg-link:focus-within {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus-within\:ring-theme-button-primary-background:focus-within {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus-within\:ring-theme-button-ghost-outline:focus-within {
@@ -115707,7 +115707,7 @@ html, body {
   }
 
   .\32xl\:focus\:ring-theme-bg-primary:focus {
-    --tw-ring-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:ring-theme-bg-secondary:focus {
@@ -115747,11 +115747,11 @@ html, body {
   }
 
   .\32xl\:focus\:ring-theme-fg-link:focus {
-    --tw-ring-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:ring-theme-button-primary-background:focus {
-    --tw-ring-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:ring-theme-button-ghost-outline:focus {
@@ -116023,7 +116023,7 @@ html, body {
   }
 
   .\32xl\:ring-offset-theme-bg-primary {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:ring-offset-theme-bg-secondary {
@@ -116063,11 +116063,11 @@ html, body {
   }
 
   .\32xl\:ring-offset-theme-fg-link {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:ring-offset-theme-button-primary-background {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:ring-offset-theme-button-ghost-outline {
@@ -116099,7 +116099,7 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-offset-theme-bg-primary:focus-within {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus-within\:ring-offset-theme-bg-secondary:focus-within {
@@ -116139,11 +116139,11 @@ html, body {
   }
 
   .\32xl\:focus-within\:ring-offset-theme-fg-link:focus-within {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus-within\:ring-offset-theme-button-primary-background:focus-within {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus-within\:ring-offset-theme-button-ghost-outline:focus-within {
@@ -116175,7 +116175,7 @@ html, body {
   }
 
   .\32xl\:focus\:ring-offset-theme-bg-primary:focus {
-    --tw-ring-offset-color: var(--theme-bg-primary, #6B7280);
+    --tw-ring-offset-color: var(--theme-bg-primary, #f00);
   }
 
   .\32xl\:focus\:ring-offset-theme-bg-secondary:focus {
@@ -116215,11 +116215,11 @@ html, body {
   }
 
   .\32xl\:focus\:ring-offset-theme-fg-link:focus {
-    --tw-ring-offset-color: var(--theme-fg-link, #6B7280);
+    --tw-ring-offset-color: var(--theme-fg-link, #f00);
   }
 
   .\32xl\:focus\:ring-offset-theme-button-primary-background:focus {
-    --tw-ring-offset-color: var(--theme-button-primary-background, #6B7280);
+    --tw-ring-offset-color: var(--theme-button-primary-background, #f00);
   }
 
   .\32xl\:focus\:ring-offset-theme-button-ghost-outline:focus {

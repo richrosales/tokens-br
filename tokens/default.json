@@ -22,7 +22,7 @@
         "type": "color"
       },
       "primary": {
-        "value": "#6B7280",
+        "value": "#f00",
         "type": "color"
       },
       "secondary": {
@@ -64,14 +64,14 @@
         "type": "color"
       },
       "link": {
-        "value": "#6B7280",
+        "value": "#f00",
         "type": "color"
       }
     },
     "button": {
       "primary": {
         "background": {
-          "value": "#6B7280",
+          "value": "#f00",
           "type": "color"
         }
       },
