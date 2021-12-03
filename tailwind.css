@@ -633,7 +633,7 @@ video {
   --theme-border-radius-card: 8;
   --theme-border-radius-input: 8;
   --theme-font-families-display: "Hurme Geometric Sans 3";
-  --theme-font-families-body: Hurme Geometric Sans 3;
+  --theme-font-families-body: "Hurme Geometric Sans 3";
   --theme-font-families-nav: "Hurme Geometric Sans 3";
   --theme-font-sizes-default: 16;
 }
