@@ -20,9 +20,9 @@ jobs:
       # Publish to netlify
       - name: deploy-branch
         uses: bobrown101/deploy-branch@v2.0.0
-        with:
-          provider: NETLIFY
-          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          netlify-site-id: # Netlify SITE ID
-          branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+        #with:
+          #provider: NETLIFY
+          #netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          #netlify-site-id: 56514961-d50f-45a6-9cad-c4d35add04e4
+          #branch: main
+          #github-token: ${{ secrets.GITHUB_TOKEN }}
